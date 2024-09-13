@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Luqman's Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="Images/G-Logo (Black).png" rel="website icon" type="png">
+</head>
+
+<body>
+<div id="navigation">
+    <img alt="Logo" src="Images/G-Logo.png">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </nav>
+    <img alt="Light" class="light" id="theme-icon" onclick="toggleTheme()" src="Images/Light.png">
+</div>
+
+<div id="responsive-navigation" style="display: none;">
+    <img alt="Logo" class="responsive-image" src="Images/G-Logo.png">
+    <div class="dark">
+        <img alt="Light" class="light" id="theme-icon-2" onclick="toggleTheme()" src="Images/Light.png">
+    </div>
+    <details>
+        <summary>
+            <img alt="More" height="40px" src="Images/more.png" width="40px">
+        </summary>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </details>
+</div>
+
+<main id="home">
+    <div class="main">
+        <div class="image">
+            <!--                Profile image hare-->
+            <img alt="picture" src="Images/luq.jpeg">
+        </div>
+        <div class="text">
+            <p class="intro">Hello! I Am <span class="name">Luqman Hakeem</span></p>
+            <p class="role">As a Flutter Developer,</p>
+            <p class="quote">I believe first impressions are crucial.</p>
+            <p class="quote">If the Mobile Aapp doesn't captivate you at first glance, <br> what will?</p>
+        </div>
+        <div class="arrow"></div>
+    </div>
+
+    <div class="para">
+        <h1 class="autoShow">About me</h1>
+        <p class="autoShow" id="about-me"><span>Bachelor of Science in Information Technology (BS/IT)
+                    Graduated from AUP Peshawar,</span> <br>
+            The journey from 2020 to 2024. Alongside my formal education, I am a self-taught <img
+                    alt="website" src="Images/Flutter.png"><span class="blue"> Flutter App Developer,</span> constantly
+            exploring
+            and
+            expanding my skills in the dynamic field of Flutter Development.
+            I am a dedicated<img alt="flutter" src="Images/Flutter.png"><span class="blue"> Flutter developer</span>
+            with a passion for building cross
+            platform mobile applications that deliver seamless user experiences.
+            With a solid understanding of Dart and the Flutter framework, I
+            specialize in creating clean, efficient, and scalable code for mobile
+            apps. My expertise includes integrating Firebase, Sqflite, Shared preference and Get storage for backend
+            services, implementing state management solutions, and building
+            custom UI components that are both responsive and visually
+            appealing.<br>
+            I am also Web Frontend Developer Using HTML,CSS,JavaScript,and Bootstrap.
+            <!--                My journey has been fueled by curiosity and-->
+            <!--                a relentless drive to learn. From 1.5 years, I have delved into the exciting world of <img-->
+            <!--                    src="Images/Flutter.png" alt="flutter"><span class="blue"> Flutter app development,</span> creating-->
+            <!--                seamless and intuitive mobile applications. With each project, I strive to blend creativity and-->
+            <!--                functionality, aiming to leave a lasting impression through my work.<br>-->
+
+        </p>
+
+    </div>
+
+    <!--        Skill section -->
+    <div class="skills-section autoShow-2" id="skills">
+        <h1>MY SKILLS</h1>
+        <p>I do all kinds of neat stuff</p>
+        <div class="skills-container">
+            <div class="skill java">
+                <img alt="Java App Development" src="Images/Java.png">
+                <h3>Java App Development</h3>
+                <p>Building robust Java applications for various platforms.</p>
+            </div>
+            <div class="skill flutter">
+                <img alt="Dart Programming Language" src="Images/dart_icon.png">
+                <h3>Dart Language</h3>
+                <p>Dart is fast, efficient, scalable, client-optimized programming language.</p>
+            </div>
+            <div class="skill flutter">
+                <img alt="Flutter App Development" src="Images/Flutter.png">
+                <h3>Flutter App Development</h3>
+                <p>Developing cross-platform mobile apps using Flutter.</p>
+            </div>
+            <div class="skill sql">
+                <img alt="SQL Database" src="Images/sql.png">
+                <h3>SQL Database</h3>
+                <p>Managing and querying relational databases with SQL.</p>
+            </div>
+            <div class="skill website">
+                <img alt="Website Development" src="Images/website.png">
+                <h3>Website Development</h3>
+                <p>Creating websites using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="skill cpp">
+                <img alt="C++ Programming" src="Images/c++.png">
+                <h3>C++ Programming</h3>
+                <p>Programming efficient applications using C++.</p>
+            </div>
+            <div class="skill aws certified">
+                <img alt="awa cloud computing" src="Images/awsicon-removebg-preview.png">
+                <h3>AWS certified Solution Architect Associate</h3>
+                <p>AWS is comprehensive, scalable, cloud computing platform.</p>
+            </div>
+            <div class="skill CCNA Networking">
+                <img alt="CCNA Network Engineer" src="Images/ccna-removebg-preview.png">
+                <h3>Cisco Certified Network Associate</h3>
+                <p>CCNA is a foundational, networking, certification for IT professionals.</p>
+            </div>
+        </div>
+    </div>
+</main>
+<section>
+    <!--    Future build section -->
+    <div class="container">
+        <h3 class="autoShow">In Future</h3>
+        <p class="autoShow">
+            "<span class="looking">I am Looking forward</span> to join a <span
+                class="highlight">cross-functional</span> team as an intern to enhance my
+            skills in Firebase, Flutter, Node.js, MongoDB, AngularJS, JavaScript, and ReactJS. I am passionate about
+            contributing to impactful projects and collaborating with like-minded professionals to create innovative
+            solutions."<br>
+            My future is poised for success as a skilled DevOps professional, leveraging AWS expertise and advanced
+            networking knowledge with CCNP certification to drive cloud infrastructure and automation.
+        </p>
+        <div class="central-logo" style="margin-top: 30px;">
+            <img alt="Light-Logo" id="G-Logo-Dark" onclick="toggleTheme()" src="Images/G-Logo.png">
+        </div>
+        <div class="orbit-icons">
+            <div class="icon autoBlur" data-text="Firebase">
+                <img alt="Firebase" src="Images/firebase.png">
+            </div>
+            <div class="icon autoBlur" data-text="MongoDB">
+                <img alt="MongoDB" src="Images/mongodb.png">
+            </div>
+            <div class="icon autoBlur" data-text="Flutter">
+                <img alt="Flutter" src="Images\Flutter.png">
+            </div>
+            <div class="icon autoBlur" data-text="Nodejs">
+                <img alt="Nodejs" src="Images/nodejs.png">
+            </div>
+            <div class="icon autoBlur" data-text="AngularJS">
+                <img alt="AngularJS" src="Images/angular.png">
+            </div>
+            <div class="icon autoBlur" data-text="JavaScript">
+                <img alt="JavaScript" src="Images/js.png">
+            </div>
+            <div class="icon autoBlur" data-text="ReactJS">
+                <img alt="ReactJS" src="Images/react.png">
+            </div>
+            <div class="icon autoBlur" data-text="AWS">
+                <img alt="Amazon Web Services" src="Images/aws-removebg-preview.png">
+            </div>
+            <div class="icon autoBlur" data-text="CCNA">
+                <img alt="Cisco Certified Network Associate" src="Images/ccna-removebg-preview.png">
+            </div>
+        </div>
+        <div class="circle"></div>
+    </div>
+    <!--projects section-->
+    <div class="section-container">
+        <div class="heading">
+            <h2 class="autoShow">Projects</h2>
+        </div>
+        <div class="slideshow autoShow" id="projects">
+            <div class="slider">
+                <div class="slides" style="--img: url('Images/psl.jpg')">
+                    <div class="content">
+                        <h1>Pakistan Super League</h1>
+                        <h3>Pure HTML & CSS</h3>
+                        <p>I developed a PSL app that efficiently manages all PSL match history,
+                            schedules, live scores, and point tables, providing real-time
+                            updates and comprehensive match data for cricket fans.</p>
+                        <a href="https://github.com/Luqmanorakzai"
+                           target="_blank"><img alt="GitHub" src="Images/github.png"></a>
+                        <!--                            <a href="https://www.linkedin.com/posts/ghalib-hassan_webdevelopment-html-css-activity-7196525795111059456-64Uz"-->
+                        <!--                                target="_blank"><img src="Images/linkedin.png" alt="Linkedin"></a>-->
+                    </div>
+                </div>
+                <div class="slides" style="--img: url('Images/tailorease.jpg')">
+                    <div class="content stopwatch">
+                        <h1>Tailor Ease App</h1>
+                        <h3>Flutter</h3>
+                        <p>I developed a tailor ease app using Flutter that allows tailors to manage customer details,
+                            measurements,
+                            orders, and worker information, with features like Gmail login, invoice printing, order
+                            tracking,
+                            and light/dark themes, all integrated with Firebase for data storage..</p>
+                        <a href="https://github.com/Luqmanorakzai" target="_blank"><img
+                                alt="GitHub" src="Images/github.png"></a>
+                        <!--                            <a href="https://www.linkedin.com/posts/ghalib-hassan_flutter-mobileappdevelopment-internship-activity-7209964816734556161-gt_k"-->
+                        <!--                                target="_blank"><img src="Images/linkedin.png" alt="Linkedin"></a>-->
+                    </div>
+                </div>
+                <div class="slides" style="--img: url('Images/todolist.jpg')">
+                    <div class="content">
+                        <h1>To-do List App</h1>
+                        <h3>Flutter</h3>
+                        <p>For my internship, I developed a comprehensive to-do list app using Flutter. This app
+                            allows
+                            users to efficiently manage their tasks with features to add new tasks, update existing
+                            ones, and delete tasks upon completion.</p>
+                        <a href="https://github.com/Luqmanorakzai" target="_blank"><img
+                                alt="GitHub" src="Images/github.png"></a>
+                        <!--                            <a href="https://www.linkedin.com/posts/ghalib-hassan_internship-flutter-mobileappdevelopment-activity-7211044758524203008-X3T8"-->
+                        <!--                                target="_blank"><img src="Images/linkedin.png" alt="Linkedin"></a>-->
+                    </div>
+                </div>
+                <div class="slides" style="--img: url('Images/quiz.jpg')">
+                    <div class="content">
+                        <h1>Quiz App</h1>
+                        <h3>Flutter</h3>
+                        <p>I developed a Quiz App using Flutter. This application is designed to provide an engaging
+                            and
+                            interactive quiz experience. </p>
+                        <a href="https://github.com/Luqmanorakzai" target="_blank"><img
+                                alt="GitHub" src="Images/github.png"></a>
+                        <!--                            <a href="https://www.linkedin.com/posts/ghalib-hassan_flutter-mobiledevelopment-quizapp-activity-7216923616473456640-KMIs"-->
+                        <!--                                target="_blank"><img src="Images/linkedin.png" alt="Linkedin"></a>-->
+                    </div>
+                </div>
+                <div class="slides" style="--img: url('Images/bmiapp.jpg')">
+                    <div class="content">
+                        <h1>BMI calculator</h1>
+                        <h3>Flutter</h3>
+                        <p>I developed a BMI app in Flutter with a local database that supports both male and female
+                            users,
+                            allowing them to input their details, calculate their Body Mass Index,
+                            and store their results for future reference. </p>
+                        <a href="https://github.com/Luqmanorakza" target="_blank"><img
+                                alt="GitHub" src="Images/github.png"></a>
+                        <!--                            <a href="https://www.linkedin.com/posts/ghalib-hassan_flutter-mobiledevelopment-quizapp-activity-7216923616473456640-KMIs"-->
+                        <!--                               target="_blank"><img src="Images/linkedin.png" alt="Linkedin"></a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <span class="previous"></span>
+                <span class="next"></span>
+            </div>
+        </div>
+</section>
+<!--contact section-->
+<footer id="contacts">
+    <div class="text footer-autoShow">
+        <p><span>For Professional Inquiries</span>, please reach out to me via the provided Contact Links. I look
+            forward to connecting with You.</p>
+    </div>
+    <div class="links footer-autoShow">
+        <!--            <a href="https://www.linkedin.com/in/ghalib-hassan/" target="_blank"><img src="Images/linkedin round.png"-->
+        <!--                    alt="Linekdin"></a>-->
+        <a href="https://www.instagram.com/?hl=en#reactivated" target="_blank"><img alt="Instagram"
+                                                                                    src="Images/instagram.jpeg"></a>
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img alt="Facebook"
+                                                                             src="Images/facebook.png"></a>
+        <!--            <a href="https://x.com/GhalibH14N?t=GmWDBo9mAdvt-x5T1R76Qg&s=09" target="_blank"><img-->
+        <!--                    src="Images/twitter.png" alt="Twitter"></a>-->
+        <a href="tel:+923319119988" target="_blank"><img alt="Whatsapp" src="Images/whatsapp.png"></a>
+        <a href="https://github.com/Luqmanorakzai" target="_blank"><img alt="GitHub" src="Images/github.png"></a>
+        <!--            <a href="https://account.microsoft.com/profile/" target="_blank"><img src="Images/outlook.png"-->
+        <!--                    alt="Outlook"></a>-->
+        <!--            <a href="https://www.fiverr.com/ghalibhassan650?public_mode=true" target="_blank"><img-->
+        <!--                    src="Images/fiverr.png" alt="Fiverr"></a>-->
+        <!--            <a href="https://www.upwork.com/nx/client/dashboard/?companyReference=1809266935354236928"-->
+        <!--                target="_blank"><img src="Images/upwork.png" alt="Upwork"></a>-->
+    </div>
+    <div class="email email-autoShow">
+        <input id="user-email" placeholder="Your Email" required size="30" type="email">
+        <input id="user-comment" placeholder="Your comment" required size="20" type="text">
+        <button class="btn" id="submit-button" style="--clr:#ff0055;">Submit</button>
+    </div>
+</footer>
+</div>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("pUDYmuD7VsPfjr-hk");
+    })();
+</script>
+
+<!--The belove section id done into script file do not use this   -->
+<!-- Include EmailJS script-->
+<!--<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" type="text/javascript"></script>-->
+
+<!--<script type="text/javascript">-->
+<!--    &lt;!&ndash;        Initialize EmailJS with your Public Key&ndash;&gt;-->
+<!--            (function(){-->
+<!--               emailjs.init("pUDYmuD7VsPfjr-hk"); // Replace with your actual Public Key-->
+<!--            })();-->
+<!--            document.getElementById('submit-button').addEventListener('click', function(event) {-->
+<!--                event.preventDefault();-->
+<!--                // Collect form data-->
+<!--                var userEmail = document.getElementById("user-email").value;-->
+<!--                var userComment = document.getElementById("user-comment").value;-->
+<!--                var params = {-->
+<!--                    user_email: userEmail,-->
+<!--                    user_comment: userComment-->
+<!--                };-->
+<!--                emailjs.send("service_nmdplck", "template_0qqxn97", params)-->
+<!--                .then(function(response) {-->
+<!--                    alert("Email sent successfully!");-->
+<!--                }, function(error) {-->
+<!--                    alert("Failed to send email. Error: " + JSON.stringify(error));-->
+<!--                });-->
+<!--            });-->
+<!--</script>-->
+
+
+<script>
+    ////////////////Lighth and Dark Theme//////////
+    function toggleTheme() {
+        document.body.classList.toggle('light-mode');
+
+        var themeIcon = document.getElementById('theme-icon');
+        if (document.body.classList.contains('light-mode')) {
+            themeIcon.src = 'Images/Dark.png';
+            themeIcon.alt = 'Dark';
+        } else {
+            themeIcon.src = 'Images/Light.png';
+            themeIcon.alt = 'Light';
+        }
+
+        var themeIcon2 = document.getElementById('theme-icon-2');
+        if (document.body.classList.contains('light-mode')) {
+            themeIcon2.src = 'Images/Dark.png';
+            themeIcon2.alt = 'Dark';
+        } else {
+            themeIcon2.src = 'Images/Light.png';
+            themeIcon2.alt = 'Light';
+        }
+    }
+</script>
+</body>
+
+</html>
